@@ -10,4 +10,10 @@
 * 可以输入多个网络地址，以换行隔开，顺序下载
 * 优化部分代码逻辑
 
-工程依赖：Microsoft-WindowsAPICodePack ，用nuget下载即可
+![image](https://github.com/magicdmer/M3U8-Downloader/blob/master/preview.png)
+
+工程依赖：
+
+Microsoft-WindowsAPICodePack: 用nuget下载即可
+
+FFmpeg: [https://ffmpeg.zeranoe.com/builds/win64/static/]
