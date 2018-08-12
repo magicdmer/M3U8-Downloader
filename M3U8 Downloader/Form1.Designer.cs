@@ -54,7 +54,7 @@ namespace M3U8_Downloader
             this.ProgressBar = new System.Windows.Forms.ProgressBar();
             this.button_ForceStop = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.Command = new System.Windows.Forms.TextBox();
+            this.button_OpenFolder = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,9 +67,9 @@ namespace M3U8_Downloader
             this.button_Download.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button_Download.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_Download.ForeColor = System.Drawing.Color.White;
-            this.button_Download.Location = new System.Drawing.Point(55, 373);
+            this.button_Download.Location = new System.Drawing.Point(36, 353);
             this.button_Download.Name = "button_Download";
-            this.button_Download.Size = new System.Drawing.Size(78, 40);
+            this.button_Download.Size = new System.Drawing.Size(78, 39);
             this.button_Download.TabIndex = 11;
             this.button_Download.Text = "下载";
             this.button_Download.UseVisualStyleBackColor = false;
@@ -84,9 +84,9 @@ namespace M3U8_Downloader
             this.button_Stop.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button_Stop.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_Stop.ForeColor = System.Drawing.Color.White;
-            this.button_Stop.Location = new System.Drawing.Point(197, 373);
+            this.button_Stop.Location = new System.Drawing.Point(153, 353);
             this.button_Stop.Name = "button_Stop";
-            this.button_Stop.Size = new System.Drawing.Size(78, 40);
+            this.button_Stop.Size = new System.Drawing.Size(78, 39);
             this.button_Stop.TabIndex = 12;
             this.button_Stop.Text = "停止";
             this.button_Stop.UseVisualStyleBackColor = false;
@@ -167,9 +167,9 @@ namespace M3U8_Downloader
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.工具TToolStripMenuItem,
             this.帮助HToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(279, 3);
+            this.menuStrip1.Location = new System.Drawing.Point(399, 3);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(239, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(119, 24);
             this.menuStrip1.TabIndex = 116;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -185,14 +185,14 @@ namespace M3U8_Downloader
             // menu_Proxy
             // 
             this.menu_Proxy.Name = "menu_Proxy";
-            this.menu_Proxy.Size = new System.Drawing.Size(180, 22);
+            this.menu_Proxy.Size = new System.Drawing.Size(98, 22);
             this.menu_Proxy.Text = "代理";
             this.menu_Proxy.Click += new System.EventHandler(this.menu_Proxy_Click);
             // 
             // menu_Set
             // 
             this.menu_Set.Name = "menu_Set";
-            this.menu_Set.Size = new System.Drawing.Size(180, 22);
+            this.menu_Set.Size = new System.Drawing.Size(98, 22);
             this.menu_Set.Text = "设置";
             this.menu_Set.Click += new System.EventHandler(this.menu_Set_Click);
             // 
@@ -210,26 +210,26 @@ namespace M3U8_Downloader
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(119, 6);
             // 
             // 软件更新ToolStripMenuItem
             // 
             this.软件更新ToolStripMenuItem.Name = "软件更新ToolStripMenuItem";
-            this.软件更新ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.软件更新ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.软件更新ToolStripMenuItem.Text = "软件更新";
             this.软件更新ToolStripMenuItem.Click += new System.EventHandler(this.软件更新ToolStripMenuItem_Click);
             // 
             // menu_FFmpeg
             // 
             this.menu_FFmpeg.Name = "menu_FFmpeg";
-            this.menu_FFmpeg.Size = new System.Drawing.Size(180, 22);
+            this.menu_FFmpeg.Size = new System.Drawing.Size(122, 22);
             this.menu_FFmpeg.Text = "FFMPEG";
             this.menu_FFmpeg.Click += new System.EventHandler(this.menu_FFmepg_Click);
             // 
             // menu_About
             // 
             this.menu_About.Name = "menu_About";
-            this.menu_About.Size = new System.Drawing.Size(180, 22);
+            this.menu_About.Size = new System.Drawing.Size(122, 22);
             this.menu_About.Text = "关于(&A)...";
             this.menu_About.Click += new System.EventHandler(this.menu_About_Click);
             // 
@@ -245,7 +245,7 @@ namespace M3U8_Downloader
             // 
             // ProgressBar
             // 
-            this.ProgressBar.Location = new System.Drawing.Point(12, 328);
+            this.ProgressBar.Location = new System.Drawing.Point(12, 315);
             this.ProgressBar.Name = "ProgressBar";
             this.ProgressBar.Size = new System.Drawing.Size(496, 23);
             this.ProgressBar.Step = 1;
@@ -254,30 +254,32 @@ namespace M3U8_Downloader
             // button_ForceStop
             // 
             this.button_ForceStop.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button_ForceStop.Location = new System.Drawing.Point(335, 373);
+            this.button_ForceStop.Location = new System.Drawing.Point(276, 353);
             this.button_ForceStop.Name = "button_ForceStop";
-            this.button_ForceStop.Size = new System.Drawing.Size(78, 40);
+            this.button_ForceStop.Size = new System.Drawing.Size(78, 39);
             this.button_ForceStop.TabIndex = 119;
             this.button_ForceStop.Text = "强制停止";
             this.button_ForceStop.UseVisualStyleBackColor = true;
             this.button_ForceStop.Click += new System.EventHandler(this.button_ForceStop_Click);
             // 
-            // Command
+            // button_OpenFolder
             // 
-            this.Command.Location = new System.Drawing.Point(437, 373);
-            this.Command.Multiline = true;
-            this.Command.Name = "Command";
-            this.Command.Size = new System.Drawing.Size(47, 29);
-            this.Command.TabIndex = 11;
-            this.Command.TabStop = false;
-            this.Command.Visible = false;
+            this.button_OpenFolder.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_OpenFolder.Location = new System.Drawing.Point(399, 353);
+            this.button_OpenFolder.Name = "button_OpenFolder";
+            this.button_OpenFolder.Size = new System.Drawing.Size(75, 39);
+            this.button_OpenFolder.TabIndex = 120;
+            this.button_OpenFolder.Text = "打开目录";
+            this.button_OpenFolder.UseVisualStyleBackColor = true;
+            this.button_OpenFolder.Click += new System.EventHandler(this.button_OpenFolder_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(520, 426);
+            this.ClientSize = new System.Drawing.Size(520, 401);
+            this.Controls.Add(this.button_OpenFolder);
             this.Controls.Add(this.button_ForceStop);
             this.Controls.Add(this.ProgressBar);
             this.Controls.Add(this.label2);
@@ -289,7 +291,6 @@ namespace M3U8_Downloader
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_Stop);
             this.Controls.Add(this.button_Download);
-            this.Controls.Add(this.Command);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -334,7 +335,7 @@ namespace M3U8_Downloader
         private System.Windows.Forms.ProgressBar ProgressBar;
         private System.Windows.Forms.Button button_ForceStop;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.TextBox Command;
+        private System.Windows.Forms.Button button_OpenFolder;
     }
 }
 

@@ -18,16 +18,8 @@ namespace M3U8_Downloader
     public partial class Form1 : Form
     {
         //任务栏进度条的实现。
-        private TaskbarManager windowsTaskbar = TaskbarManager.Instance;
-        
-        //拖动窗口
-        [DllImport("user32.dll")]
-        public static extern bool ReleaseCapture();
-        [DllImport("user32.dll")]
-        public static extern bool SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
-        public const int WM_SYSCOMMAND = 0x0112;
-        public const int SC_MOVE = 0xF010;
-        public const int HTCAPTION = 0x0002;
+        TaskbarManager windowsTaskbar = TaskbarManager.Instance;
+     
 
         [DllImport("kernel32.dll")]
         static extern bool GenerateConsoleCtrlEvent(int dwCtrlEvent, int dwProcessGroupId);
@@ -348,6 +340,11 @@ namespace M3U8_Downloader
         {
             Process.Start("https://github.com/magicdmer/M3U8-Downloader");
         }
+
+        private void button_OpenFolder_Click(object sender, EventArgs e)
+        {
+            Process.Start(m_path);
+        }
     }
 }
 
@@ -386,6 +383,7 @@ namespace M3U8_Downloader
         string[] m_urlList;
         int m_count;
         string m_outPut;
+        
 
         private void Download()
         {
@@ -400,17 +398,18 @@ namespace M3U8_Downloader
             m_urlList = Regex.Split(textBox_Adress.Text, Environment.NewLine, RegexOptions.IgnoreCase);
             m_count = 0;
 
+            string command;
             if (menu_Proxy.Checked)
             {
-                Command.Text = "-http_proxy " + m_proxy + " -rw_timeout 10000000 -i " + "\"" + m_urlList[0] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
+                command = "-http_proxy " + m_proxy + " -rw_timeout 10000000 -i " + "\"" + m_urlList[0] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
             }
             else
             {
-                Command.Text = "-rw_timeout 10000000 -i " + "\"" + m_urlList[0] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
+                command = "-rw_timeout 10000000 -i " + "\"" + m_urlList[0] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
             }
 
             // 启动进程执行相应命令,此例中以执行ffmpeg.exe为例  
-            RealAction(@"Tools\ffmpeg.exe", Command.Text);
+            RealAction(@"Tools\ffmpeg.exe", command);
             m_count++;
 
         }
@@ -513,17 +512,18 @@ namespace M3U8_Downloader
                 windowsTaskbar.SetProgressValue(0, 100, this.Handle);
                 Application.DoEvents();
 
+                string command;
                 if (menu_Proxy.Checked)
                 {
-                    Command.Text = "-http_proxy " + m_proxy + " -rw_timeout 10000000 -i " + "\"" + m_urlList[m_count] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
+                    command = "-http_proxy " + m_proxy + " -rw_timeout 10000000 -i " + "\"" + m_urlList[m_count] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
                 }
                 else
                 {
-                    Command.Text = "-rw_timeout 10000000 -i " + "\"" + m_urlList[m_count] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
+                    command = "-rw_timeout 10000000 -i " + "\"" + m_urlList[m_count] + "\"" + " -c copy -y -bsf:a aac_adtstoasc -movflags +faststart " + "\"" + m_path + "\\" + textBox_Name.Text + m_count.ToString() + ".mp4" + "\"";
                 }
 
                 
-                RealAction(@"Tools\ffmpeg.exe", Command.Text);
+                RealAction(@"Tools\ffmpeg.exe", command);
 
                 m_count++;
             }
