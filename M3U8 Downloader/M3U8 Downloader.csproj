@@ -131,16 +131,28 @@
     <Compile Include="SetForm.Designer.cs">
       <DependentUpon>SetForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form1.en.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.zh.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SetForm.en.resx">
+      <DependentUpon>SetForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SetForm.resx">
+      <DependentUpon>SetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetForm.zh.resx">
       <DependentUpon>SetForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />

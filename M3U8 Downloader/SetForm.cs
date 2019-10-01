@@ -8,6 +8,7 @@ using System.Text;
 using System.Xml;
 using System.Windows.Forms;
 using System.IO;
+using System.Globalization;
 
 namespace M3U8_Downloader
 {
@@ -16,9 +17,14 @@ namespace M3U8_Downloader
         public string m_path;
         public string m_proxy;
 
-        public SetForm()
+        public SetForm(string Language)
         {
             InitializeComponent();
+
+            if(Language != "default")
+            {
+                ChangeLanguage(Language);
+            }
         }
 
         private void button_Ok_Click(object sender, EventArgs e)
@@ -67,6 +73,17 @@ namespace M3U8_Downloader
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
                 textBoxPath.Text = folderBrowserDialog1.SelectedPath;
+            }
+        }
+
+        private void ChangeLanguage(string languageCode)
+        {
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(SetForm));
+            resources.ApplyResources(this, this.Name, new CultureInfo(languageCode));
+
+            foreach (Control c in this.Controls)
+            {
+                resources.ApplyResources(c, c.Name, new CultureInfo(languageCode));
             }
         }
     }

@@ -12,6 +12,8 @@ using Microsoft.WindowsAPICodePack.Taskbar;
 using System.Threading;
 using System.Xml.Linq;
 using System.Collections.Generic;
+using System.Globalization;
+using System.ComponentModel;
 
 namespace M3U8_Downloader
 {
@@ -31,6 +33,9 @@ namespace M3U8_Downloader
         static extern bool FreeConsole();
         [DllImport("user32.dll")]
         public static extern bool FlashWindow(IntPtr hWnd,bool bInvert );
+
+
+        string CurrentLanguage = "default";
 
 
         int ffmpegid = -1;
@@ -192,7 +197,7 @@ namespace M3U8_Downloader
 
             if (!File.Exists(@"Tools\ffmpeg.exe"))  //判断程序目录有无ffmpeg.exe
             {
-                MessageBox.Show("没有找到Tools\\ffmpeg.exe", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("没有找到Tools\\ffmpeg.exe" + Environment.NewLine + "Missing Tools\\ffmpeg.exe", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Dispose();
                 Application.Exit();
             }
@@ -284,13 +289,13 @@ namespace M3U8_Downloader
         {
             if (m_proxy.Length == 0 )
             {
-                MessageBox.Show("请设置代理后使用！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("请设置代理后使用！" + Environment.NewLine + "Please select proxy!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 menu_Proxy.CheckState = CheckState.Unchecked;
                 return;
             }
             if (!m_proxy.StartsWith("http://"))
             {
-                MessageBox.Show("代理地址格式错误！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("代理地址格式错误！" + Environment.NewLine + "Thge proxy address format is incorrect!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 menu_Proxy.CheckState = CheckState.Unchecked;
                 return;
             }
@@ -311,7 +316,7 @@ namespace M3U8_Downloader
 
         private void menu_Set_Click(object sender, EventArgs e)
         {
-            SetForm setDlg = new SetForm();
+            SetForm setDlg = new SetForm(CurrentLanguage);
             if (DialogResult.OK == setDlg.ShowDialog())
             {
                 m_path = setDlg.m_path;
@@ -344,6 +349,45 @@ namespace M3U8_Downloader
         private void button_OpenFolder_Click(object sender, EventArgs e)
         {
             Process.Start(m_path);
+        }
+
+        private void LanguageChinese_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("zh");
+        }
+
+        private void LanguageEnglish_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("en");
+        }
+
+
+
+        private void ChangeLanguage(string languageCode)
+        {
+            CurrentLanguage = languageCode;
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(Form1));
+
+            foreach (Control c in this.Controls)
+            {
+                resources.ApplyResources(c, c.Name, new CultureInfo(languageCode));
+
+                if (c is MenuStrip)
+                {
+                    foreach (ToolStripMenuItem menuitem in ((MenuStrip)c).Items)
+                    {
+                        resources.ApplyResources(menuitem, menuitem.Name, new CultureInfo(languageCode));
+
+                        foreach (var submenuitem in ((ToolStripMenuItem)menuitem).DropDownItems)
+                        {
+                            if(submenuitem is ToolStripMenuItem)
+                            {
+                                resources.ApplyResources(submenuitem, ((ToolStripMenuItem)submenuitem).Name, new CultureInfo(languageCode));
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -389,7 +433,7 @@ namespace M3U8_Downloader
         {
             if (m_urlList != null)
             {
-                MessageBox.Show("正在下载文件！", "M3U8 Downloader", MessageBoxButtons.OK, MessageBoxIcon.Information);  // 执行结束后触发
+                MessageBox.Show("正在下载文件！" + Environment.NewLine + "Downloading file!", "M3U8 Downloader", MessageBoxButtons.OK, MessageBoxIcon.Information);  // 执行结束后触发
                 return;
             }
 
