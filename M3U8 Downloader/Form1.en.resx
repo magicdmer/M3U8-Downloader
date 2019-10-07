@@ -117,142 +117,75 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="button_OpenFolder.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;button_Download.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label7.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button_Stop.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
   <data name="button_Download.Text" xml:space="preserve">
-    <value>下载</value>
-  </data>
-  <data name="&gt;&gt;button_Stop.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="textBox_Adress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>496, 211</value>
-  </data>
-  <data name="menu_Proxy.Text" xml:space="preserve">
-    <value>代理</value>
-  </data>
-  <data name="LanguageMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="&gt;&gt;帮助HToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;button_OpenFolder.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;工具TToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox_forRegex.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="textBox_forRegex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 20</value>
-  </data>
-  <data name="textBox_Name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>496, 23</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 24</value>
-  </data>
-  <data name="button_Download.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="button_OpenFolder.Text" xml:space="preserve">
-    <value>打开目录</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
-  </data>
-  <data name="&gt;&gt;menu_Proxy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;工具TToolStripMenuItem.Name" xml:space="preserve">
-    <value>工具TToolStripMenuItem</value>
-  </data>
-  <data name="textBox_Name.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;软件更新ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>M3U8 Downloader 2.1 by magicdmer</value>
-  </data>
-  <data name="menu_Set.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
-  </data>
-  <data name="ProgressBar.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;textBox_forRegex.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="menu_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
+    <value>Download</value>
   </data>
   <data name="button_Stop.Text" xml:space="preserve">
-    <value>停止</value>
+    <value>Stop</value>
   </data>
-  <data name="button_Stop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 353</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 17</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Download address (bulk)</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 16</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
   </data>
-  <data name="&gt;&gt;textBox_Adress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>[video information，]</value>
+  </data>
+  <data name="menu_Proxy.Text" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
+  <data name="menu_Set.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="工具TToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools(&amp;T)</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="软件更新ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="软件更新ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="menu_FFmpeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="LanguageMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="menu_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="menu_About.Text" xml:space="preserve">
+    <value>About(&amp;A)...</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 3</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 24</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Filename prefix（video0.mp4,Video1.mp4...）</value>
+  </data>
+  <data name="button_ForceStop.Text" xml:space="preserve">
+    <value>Force stop</value>
+  </data>
+  <data name="button_OpenFolder.Text" xml:space="preserve">
+    <value>Open</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1289,467 +1222,4 @@
         //////////////////////////////////////////////////8=
 </value>
   </data>
-  <data name="button_OpenFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 353</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;menu_Set.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LanguageMenu.Text" xml:space="preserve">
-    <value>语言/Language</value>
-  </data>
-  <data name="menu_Set.Text" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBox_Name.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="&gt;&gt;button_Download.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button_ForceStop.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ProgressBar.TabIndex" type="System.Int32, mscorlib">
-    <value>118</value>
-  </data>
-  <data name="textBox_Name.Text" xml:space="preserve">
-    <value>Video</value>
-  </data>
-  <data name="menu_About.Text" xml:space="preserve">
-    <value>关于(&amp;A)...</value>
-  </data>
-  <data name="label7.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="button_Download.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
-  </data>
-  <data name="textBox_Name.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="button_ForceStop.Text" xml:space="preserve">
-    <value>强制停止</value>
-  </data>
-  <data name="&gt;&gt;button_ForceStop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LanguageEnglish.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_Stop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 39</value>
-  </data>
-  <data name="&gt;&gt;软件更新ToolStripMenuItem.Name" xml:space="preserve">
-    <value>软件更新ToolStripMenuItem</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>On</value>
-  </data>
-  <data name="button_OpenFolder.TabIndex" type="System.Int32, mscorlib">
-    <value>120</value>
-  </data>
-  <data name="&gt;&gt;textBox_Adress.Name" xml:space="preserve">
-    <value>textBox_Adress</value>
-  </data>
-  <data name="textBox_Adress.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="label8.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 14</value>
-  </data>
-  <data name="&gt;&gt;textBox_Name.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;menu_FFmpeg.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox_Adress.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
-  </data>
-  <data name="button_Stop.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="button_Stop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="&gt;&gt;ProgressBar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="button_Download.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="LanguageChinese.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="menu_Proxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="button_Stop.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProgressBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label8.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="textBox_Adress.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 17</value>
-  </data>
-  <data name="&gt;&gt;menu_Proxy.Name" xml:space="preserve">
-    <value>menu_Proxy</value>
-  </data>
-  <data name="textBox_Adress.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>935, 57</value>
-  </data>
-  <data name="LanguageEnglish.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="工具TToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;textBox_forRegex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_Stop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox_Name.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
-    <value>folderBrowserDialog1</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button_Stop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="textBox_Name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>KatakanaHalf</value>
-  </data>
-  <data name="button_Download.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>下载地址（批量请换行）</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 3</value>
-  </data>
-  <data name="button_OpenFolder.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="&gt;&gt;button_ForceStop.Name" xml:space="preserve">
-    <value>button_ForceStop</value>
-  </data>
-  <data name="button_ForceStop.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="ProgressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>496, 23</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>[视频信息，]</value>
-  </data>
-  <data name="&gt;&gt;帮助HToolStripMenuItem.Name" xml:space="preserve">
-    <value>帮助HToolStripMenuItem</value>
-  </data>
-  <data name="menuStrip1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;menu_About.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button_Download.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 39</value>
-  </data>
-  <data name="button_ForceStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 353</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>117</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>116</value>
-  </data>
-  <data name="LanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
-  </data>
-  <data name="button_OpenFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 39</value>
-  </data>
-  <data name="&gt;&gt;menu_Set.Name" xml:space="preserve">
-    <value>menu_Set</value>
-  </data>
-  <data name="menu_FFmpeg.Text" xml:space="preserve">
-    <value>FFMPEG</value>
-  </data>
-  <data name="&gt;&gt;button_Download.Name" xml:space="preserve">
-    <value>button_Download</value>
-  </data>
-  <data name="&gt;&gt;button_OpenFolder.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LanguageEnglish.Name" xml:space="preserve">
-    <value>LanguageEnglish</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button_ForceStop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button_Download.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 353</value>
-  </data>
-  <data name="button_ForceStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 39</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox_forRegex.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>文件名前缀（video0.mp4,Video1.mp4...）</value>
-  </data>
-  <data name="&gt;&gt;button_Stop.Name" xml:space="preserve">
-    <value>button_Stop</value>
-  </data>
-  <data name="label2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="工具TToolStripMenuItem.Text" xml:space="preserve">
-    <value>工具(&amp;T)</value>
-  </data>
-  <data name="&gt;&gt;menu_About.Name" xml:space="preserve">
-    <value>menu_About</value>
-  </data>
-  <data name="textBox_Adress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 36</value>
-  </data>
-  <data name="&gt;&gt;button_OpenFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 17</value>
-  </data>
-  <data name="帮助HToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助/Help(&amp;H)</value>
-  </data>
-  <data name="&gt;&gt;ProgressBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>96, 96</value>
-  </data>
-  <data name="&gt;&gt;ProgressBar.Name" xml:space="preserve">
-    <value>ProgressBar</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ProgressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 315</value>
-  </data>
-  <data name="textBox_forRegex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>909, 307</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>115</value>
-  </data>
-  <data name="button_ForceStop.TabIndex" type="System.Int32, mscorlib">
-    <value>119</value>
-  </data>
-  <data name="&gt;&gt;menu_FFmpeg.Name" xml:space="preserve">
-    <value>menu_FFmpeg</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 255</value>
-  </data>
-  <data name="menu_FFmpeg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="&gt;&gt;textBox_forRegex.Name" xml:space="preserve">
-    <value>textBox_forRegex</value>
-  </data>
-  <data name="&gt;&gt;LanguageMenu.Name" xml:space="preserve">
-    <value>LanguageMenu</value>
-  </data>
-  <data name="textBox_Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 276</value>
-  </data>
-  <data name="&gt;&gt;textBox_Name.Name" xml:space="preserve">
-    <value>textBox_Name</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>520, 401</value>
-  </data>
-  <data name="&gt;&gt;textBox_Adress.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="label1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;textBox_Adress.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="&gt;&gt;textBox_forRegex.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="软件更新ToolStripMenuItem.Text" xml:space="preserve">
-    <value>软件更新</value>
-  </data>
-  <data name="&gt;&gt;LanguageMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="软件更新ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 22</value>
-  </data>
-  <data name="&gt;&gt;LanguageChinese.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_Download.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="textBox_Adress.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="&gt;&gt;LanguageChinese.Name" xml:space="preserve">
-    <value>LanguageChinese</value>
-  </data>
-  <data name="&gt;&gt;button_OpenFolder.Name" xml:space="preserve">
-    <value>button_OpenFolder</value>
-  </data>
-  <data name="&gt;&gt;textBox_Name.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 6</value>
-  </data>
-  <data name="textBox_Adress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>KatakanaHalf</value>
-  </data>
-  <data name="button_ForceStop.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="textBox_forRegex.TabIndex" type="System.Int32, mscorlib">
-    <value>114</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="帮助HToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 20</value>
-  </data>
-  <data name="LanguageChinese.Text" xml:space="preserve">
-    <value>中文</value>
-  </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>176, 16</value>
-  </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>285, 16</value>
-  </metadata>
-  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>57</value>
-  </metadata>
 </root>
